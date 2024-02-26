@@ -59,7 +59,7 @@ body {
 header {
 
     padding-left: 1.5rem;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     position: fixed;
     left: 0;
     top: 0;
@@ -201,6 +201,7 @@ main {
     flex-wrap: wrap;
     gap: 1.5em;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .section1>div:first-child {
@@ -220,7 +221,7 @@ main {
 }
 
 .section1>div:last-child {
-    font-size: 11px;
+    font-size: 13px;
     flex: 2 1 0;
     color: var(--main-grey);
     font-family: var(--main-font);
@@ -443,7 +444,7 @@ main {
     }
 
     main {
-        padding-top: 10%;
+        padding-top: 20%;
     }
 
 
@@ -458,13 +459,18 @@ main {
         justify-content: space-between;
     }
 
+    .newNav h1 {
+        padding-top: 1.9rem;
+    }
+
     header {
         background-color: rgba(255, 255, 255, 0.685);
-        backdrop-filter: blur(4px);
+        backdrop-filter: blur(7px);
         position: fixed;
         left: -700px;
         width: 70%;
         height: 100vh;
+        margin-top: 1.3rem;
         transition: transform ease-out 0.5s;
     }
 
@@ -513,12 +519,39 @@ main {
         z-index: 2;
     }
 
+    .grid-two-cols {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-three-cols {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10,
+.image11,
+.image12 {
+    width: 90%;
+    max-width: none; /* Réinitialise la largeur maximale */
+    margin: 0;
+}
+
 }
 
 @media only screen and (max-width: 480px) {
 
     main {
-        padding-top: 30%;
+        padding-top: 10%;
     }
 
 }
