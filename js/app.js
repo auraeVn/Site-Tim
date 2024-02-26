@@ -43,6 +43,7 @@ navLinks.forEach((link) => {
         }
 
 
+
 // CONDITION POUR BIO
         const imgcenter = document.querySelector('.section1');
         if(contenu.id === "Bio"){
